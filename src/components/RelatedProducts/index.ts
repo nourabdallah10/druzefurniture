@@ -1,0 +1,2 @@
+export { RelatedProducts } from './RelatedProducts';
+

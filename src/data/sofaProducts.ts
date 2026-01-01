@@ -1,0 +1,146 @@
+// Generate product data for sofa images
+import { ProductCardProps } from '../components/ProductCard/ProductCard';
+
+// Import sofa images (importing first 50 for performance, but we'll generate data for all)
+import sofa1 from '../assets/images/sofas/1.jpg';
+import sofa2 from '../assets/images/sofas/2.jpg';
+import sofa3 from '../assets/images/sofas/3.jpg';
+import sofa4 from '../assets/images/sofas/4.jpg';
+import sofa5 from '../assets/images/sofas/5.jpg';
+import sofa6 from '../assets/images/sofas/6.jpg';
+import sofa7 from '../assets/images/sofas/7.jpg';
+import sofa8 from '../assets/images/sofas/8.jpg';
+import sofa9 from '../assets/images/sofas/9.jpg';
+import sofa10 from '../assets/images/sofas/10.jpg';
+import sofa11 from '../assets/images/sofas/11.jpg';
+import sofa12 from '../assets/images/sofas/12.jpg';
+import sofa13 from '../assets/images/sofas/13.jpg';
+import sofa14 from '../assets/images/sofas/14.jpg';
+import sofa15 from '../assets/images/sofas/15.jpg';
+import sofa16 from '../assets/images/sofas/16.jpg';
+import sofa17 from '../assets/images/sofas/17.jpg';
+import sofa18 from '../assets/images/sofas/18.jpg';
+import sofa19 from '../assets/images/sofas/19.jpg';
+import sofa20 from '../assets/images/sofas/20.jpg';
+import sofa21 from '../assets/images/sofas/21.jpg';
+import sofa22 from '../assets/images/sofas/22.jpg';
+import sofa23 from '../assets/images/sofas/23.jpg';
+import sofa24 from '../assets/images/sofas/24.jpg';
+import sofa25 from '../assets/images/sofas/25.jpg';
+import sofa26 from '../assets/images/sofas/26.jpg';
+import sofa27 from '../assets/images/sofas/27.jpg';
+import sofa28 from '../assets/images/sofas/28.jpg';
+import sofa29 from '../assets/images/sofas/29.jpg';
+import sofa30 from '../assets/images/sofas/30.jpg';
+import sofa31 from '../assets/images/sofas/31.jpg';
+import sofa32 from '../assets/images/sofas/32.jpg';
+import sofa33 from '../assets/images/sofas/33.jpg';
+import sofa34 from '../assets/images/sofas/34.jpg';
+import sofa35 from '../assets/images/sofas/35.jpg';
+import sofa36 from '../assets/images/sofas/36.jpg';
+import sofa37 from '../assets/images/sofas/37.jpg';
+import sofa38 from '../assets/images/sofas/38.jpg';
+import sofa39 from '../assets/images/sofas/39.jpg';
+import sofa40 from '../assets/images/sofas/40.jpg';
+import sofa41 from '../assets/images/sofas/41.jpg';
+import sofa42 from '../assets/images/sofas/42.jpg';
+import sofa43 from '../assets/images/sofas/43.jpg';
+import sofa44 from '../assets/images/sofas/44.jpg';
+import sofa45 from '../assets/images/sofas/45.jpg';
+import sofa46 from '../assets/images/sofas/46.jpg';
+import sofa47 from '../assets/images/sofas/47.jpg';
+import sofa48 from '../assets/images/sofas/48.jpg';
+import sofa49 from '../assets/images/sofas/49.jpg';
+import sofa50 from '../assets/images/sofas/50.jpg';
+
+const importedSofas = [
+  sofa1, sofa2, sofa3, sofa4, sofa5, sofa6, sofa7, sofa8, sofa9, sofa10,
+  sofa11, sofa12, sofa13, sofa14, sofa15, sofa16, sofa17, sofa18, sofa19, sofa20,
+  sofa21, sofa22, sofa23, sofa24, sofa25, sofa26, sofa27, sofa28, sofa29, sofa30,
+  sofa31, sofa32, sofa33, sofa34, sofa35, sofa36, sofa37, sofa38, sofa39, sofa40,
+  sofa41, sofa42, sofa43, sofa44, sofa45, sofa46, sofa47, sofa48, sofa49, sofa50,
+];
+
+const colors = ['Black', 'White', 'Gray', 'Beige', 'Brown', 'Blue', 'Red'];
+const colorTranslations: { [key: string]: { en: string; he: string } } = {
+  'Black': { en: 'Black', he: 'שחור' },
+  'White': { en: 'White', he: 'לבן' },
+  'Gray': { en: 'Gray', he: 'אפור' },
+  'Beige': { en: 'Beige', he: 'בז' },
+  'Brown': { en: 'Brown', he: 'חום' },
+  'Blue': { en: 'Blue', he: 'כחול' },
+  'Red': { en: 'Red', he: 'אדום' },
+};
+
+const styles = ['Modern', 'Classic', 'Contemporary', 'Traditional', 'Scandinavian'];
+const styleTranslations: { [key: string]: { en: string; he: string } } = {
+  'Modern': { en: 'Modern', he: 'מודרני' },
+  'Classic': { en: 'Classic', he: 'קלאסי' },
+  'Contemporary': { en: 'Contemporary', he: 'עכשווי' },
+  'Traditional': { en: 'Traditional', he: 'מסורתי' },
+  'Scandinavian': { en: 'Scandinavian', he: 'סקנדינבי' },
+};
+
+const materials = ['Leather', 'Fabric', 'Velvet', 'Linen', 'Microfiber'];
+const materialTranslations: { [key: string]: { en: string; he: string } } = {
+  'Leather': { en: 'Leather', he: 'עור' },
+  'Fabric': { en: 'Fabric', he: 'בד' },
+  'Velvet': { en: 'Velvet', he: 'קטיפה' },
+  'Linen': { en: 'Linen', he: 'פשתן' },
+  'Microfiber': { en: 'Microfiber', he: 'מיקרופייבר' },
+};
+
+const sofaNames = [
+  { en: 'Modern Luxury Sofa', he: 'ספה יוקרתית מודרנית' },
+  { en: 'Classic Leather Sofa', he: 'ספה קלאסית מעור' },
+  { en: 'Contemporary Comfort Sofa', he: 'ספה נוחה עכשווית' },
+  { en: 'Elegant Sectional Sofa', he: 'ספה מודולרית אלגנטית' },
+  { en: 'Premium Fabric Sofa', he: 'ספה פרימיום מבד' },
+  { en: 'Designer Chaise Sofa', he: 'ספה מעוצבת עם שכיבה' },
+  { en: 'Traditional Sofa Set', he: 'סט ספות מסורתי' },
+  { en: 'Minimalist Sofa', he: 'ספה מינימליסטית' },
+  { en: 'Scandinavian Sofa', he: 'ספה סקנדינבית' },
+  { en: 'Luxury Velvet Sofa', he: 'ספה יוקרתית מקטיפה' },
+];
+
+export interface SofaProduct extends ProductCardProps {
+  metadata?: {
+    color: string;
+    style: string;
+    material: string;
+    isNew: boolean;
+  };
+}
+
+// Generate products for imported images
+export const generateSofaProducts = (): SofaProduct[] => {
+  return importedSofas.map((image, index) => {
+    const basePrice = 1500 + (index % 50) * 50 + Math.floor(Math.random() * 1000);
+    const colorKey = colors[index % colors.length];
+    const styleKey = styles[index % styles.length];
+    const materialKey = materials[index % materials.length];
+    const nameObj = sofaNames[index % sofaNames.length];
+    
+    const color = colorTranslations[colorKey];
+    const style = styleTranslations[styleKey];
+    const material = materialTranslations[materialKey];
+
+    return {
+      id: `sofa-${index + 1}`,
+      name: nameObj,
+      image,
+      description: {
+        en: `${style.en} ${material.en} sofa in ${color.en}. Premium comfort and quality craftsmanship. Designed for durability and style, this piece combines elegant aesthetics with functional design to enhance any living space.`,
+        he: `ספה ${material.he} ${style.he} בצבע ${color.he}. נוחות פרימיום ואיכות מלאכה גבוהה. מעוצבת לעמידות וסגנון, היצירה הזו משלבת אסתטיקה אלגנטית עם עיצוב פונקציונלי לשיפור כל חלל מגורים.`,
+      },
+      price: basePrice,
+      category: 'Sofas',
+      metadata: {
+        color: colorKey,
+        style: styleKey,
+        material: materialKey,
+        isNew: index < 10, // First 10 are "new"
+      },
+    };
+  });
+};

@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "Home",
+    "sofas": "Sofas",
+    "beds": "Beds",
+    "tables": "Tables",
+    "colors": "Colors",
+    "product": "Product"
+  },
+  "home": {
+    "title": "Welcome to Our Furniture Store",
+    "subtitle": "Discover beautiful and comfortable furniture for your home",
+    "featuredCategories": "Featured Categories",
+    "newArrivals": "New Arrivals",
+    "bestSellers": "Best Sellers",
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "subtitle": "Get the latest updates on new products and exclusive offers",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe",
+      "success": "Thank you for subscribing!"
+    }
+  },
+  "sofas": {
+    "title": "Sofas",
+    "description": "Explore our collection of comfortable sofas"
+  },
+  "beds": {
+    "title": "Beds",
+    "description": "Find the perfect bed for your bedroom"
+  },
+  "tables": {
+    "title": "Tables",
+    "description": "Beautiful tables for dining and living rooms"
+  },
+  "colors": {
+    "title": "Colors & Fabrics",
+    "description": "Choose from our wide selection of colors and fabrics"
+  },
+  "product": {
+    "title": "Product Details",
+    "description": "View detailed information about this product",
+    "selectColor": "Select Color",
+    "selectMaterial": "Select Material",
+    "addToCart": "Contact on WhatsApp",
+    "addedToCart": "Product added to cart!",
+    "specifications": "Specifications",
+    "dimensionsCustomizable": "Customizable - Contact us for size options",
+    "customizationMessage": "For inquiries or to customize product size, design, or color, please don't hesitate to contact us. We're here to help!",
+    "reviews": "Customer Reviews",
+    "noReviews": "No reviews yet. Be the first to review this product!",
+    "relatedProducts": "Related Products",
+    "notFound": "Product not found",
+    "backToHome": "Back to Home",
+    "qualityMessage": "Built from high-quality wood and durable, washable fabrics, each piece is customized to suit your space and style."
+  },
+  "common": {
+    "language": "Language",
+    "english": "English",
+    "hebrew": "עברית",
+    "viewDetails": "View Details",
+    "price": "Price"
+  },
+  "filters": {
+    "filters": "Filters",
+    "showFilters": "Show Filters",
+    "priceRange": "Price Range",
+    "colors": "Colors",
+    "styles": "Styles",
+    "materials": "Materials",
+    "clearFilters": "Clear Filters"
+  },
+  "sort": {
+    "sortBy": "Sort By",
+    "priceLowHigh": "Price: Low to High",
+    "priceHighLow": "Price: High to Low",
+    "newest": "Newest First"
+  },
+  "products": {
+    "showing": "Showing",
+    "of": "of",
+    "products": "products",
+    "noProducts": "No products found matching your filters"
+  },
+  "footer": {
+    "description": "Your trusted source for premium furniture. We offer high-quality sofas, beds, tables, and custom fabrics to transform your living spaces.",
+    "quickLinks": "Quick Links",
+    "categories": "Categories",
+    "contact": "Contact Us",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "followUs": "Follow Us",
+    "copyright": "All rights reserved"
+  },
+  "seo": {
+    "defaultTitle": "Premium Furniture Store - Modern Sofas, Beds & Tables",
+    "defaultDescription": "Discover premium furniture for your home. Browse our collection of modern sofas, comfortable beds, elegant tables, and custom fabrics.",
+    "skipToContent": "Skip to main content"
+  },
+  "accessibility": {
+    "menu": "Main navigation menu",
+    "closeMenu": "Close menu",
+    "openMenu": "Open menu",
+    "search": "Search products",
+    "cart": "Shopping cart",
+    "userAccount": "User account",
+    "skipToMain": "Skip to main content",
+    "pagination": "Pagination navigation",
+    "previousPage": "Go to previous page",
+    "nextPage": "Go to next page",
+    "goToPage": "Go to page",
+    "toggleMenu": "Toggle navigation menu",
+    "closeFilters": "Close filters"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you are looking for doesn't exist or has been moved.",
+    "backToHome": "Back to Home",
+    "quickLinks": "Quick Links"
+  },
+  "wishlist": {
+    "title": "Wishlist",
+    "empty": "Your wishlist is empty",
+    "add": "Add to Wishlist",
+    "remove": "Remove from Wishlist",
+    "added": "Added to wishlist",
+    "removed": "Removed from wishlist",
+    "clear": "Clear Wishlist"
+  },
+  "compare": {
+    "title": "Compare Products",
+    "add": "Compare",
+    "remove": "Remove",
+    "clear": "Clear All",
+    "maxItems": "Maximum {{max}} items can be compared",
+    "maxItemsReached": "Maximum {{max}} items can be compared. Please remove an item first.",
+    "empty": "No products to compare",
+    "addToCompare": "Add products to compare",
+    "specifications": "Specifications",
+    "price": "Price",
+    "description": "Description",
+    "category": "Category"
+  },
+  "quickView": {
+    "title": "Quick View",
+    "viewDetails": "View Full Details",
+    "addToCart": "Add to Cart"
+  },
+  "roomVisualizer": {
+    "title": "Room Visualizer",
+    "description": "Visualize how furniture looks in your room",
+    "comingSoon": "Coming Soon",
+    "placeholder": "AR Room Visualizer will be available soon. Upload a photo of your room to see how our furniture fits."
+  },
+  "delivery": {
+    "title": "Delivery Information",
+    "estimate": "Estimated Delivery",
+    "standard": "Standard Delivery",
+    "express": "Express Delivery",
+    "days": "{{days}} days",
+    "calculate": "Calculate Delivery Time",
+    "enterZip": "Enter ZIP Code"
+  },
+  "configurator": {
+    "title": "Configure Your Product",
+    "selectColor": "Select Color",
+    "selectMaterial": "Select Material",
+    "selectSize": "Select Size",
+    "customizations": "Customizations",
+    "addToCart": "Add to Cart",
+    "updatePrice": "Update Price"
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode",
+    "toggle": "Toggle Theme"
+  },
+  "whatsapp": {
+    "contactUs": "Contact us"
+  }
+}
+

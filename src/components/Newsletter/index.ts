@@ -1,0 +1,2 @@
+export { Newsletter } from './Newsletter';
+

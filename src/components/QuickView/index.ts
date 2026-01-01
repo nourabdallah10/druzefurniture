@@ -1,0 +1,2 @@
+export { QuickView } from './QuickView';
+

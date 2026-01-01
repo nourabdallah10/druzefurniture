@@ -1,0 +1,2 @@
+export { RoomVisualizer } from './RoomVisualizer';
+

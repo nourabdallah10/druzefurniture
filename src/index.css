@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Screen reader only - visually hidden but accessible */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: inherit;
+  margin: inherit;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: 'Assistant', 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+      'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    background-color: #faf9f7; /* cream-50 */
+    color: #2d2d2d; /* accent-charcoal */
+  }
+
+  /* Dark mode styles */
+  html.dark body {
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+  }
+  
+  html.dark {
+    background-color: #1a1a1a;
+    color: #e5e5e5;
+  }
+
+  /* Serif fonts for headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Playfair Display', 'Lora', 'Georgia', serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  /* Hebrew font styling */
+  .font-hebrew,
+  .font-hebrew *,
+  [dir='rtl']:not([dir='ltr']),
+  [lang='he']:not([lang='en']) {
+    font-family: 'Assistant', 'Rubik', Arial, 'Noto Sans Hebrew', sans-serif;
+  }
+
+  /* Hebrew headings should not use serif */
+  [dir='rtl'] h1,
+  [dir='rtl'] h2,
+  [dir='rtl'] h3,
+  [dir='rtl'] h4,
+  [dir='rtl'] h5,
+  [dir='rtl'] h6,
+  [lang='he'] h1,
+  [lang='he'] h2,
+  [lang='he'] h3,
+  [lang='he'] h4,
+  [lang='he'] h5,
+  [lang='he'] h6 {
+    font-family: 'Assistant', 'Rubik', Arial, sans-serif;
+  }
+
+  [dir='rtl'] *,
+  [lang='he'] * {
+    font-feature-settings: normal;
+    font-variant: normal;
+  }
+
+  /* Touch-friendly base styles */
+  button,
+  a,
+  input[type='button'],
+  input[type='submit'],
+  [role='button'] {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer components {
+  /* Luxury button styles */
+  .btn-luxury {
+    @apply px-8 py-4 font-medium tracking-wide transition-all duration-300 rounded-lg;
+    @apply bg-accent-charcoal text-white;
+    @apply hover:bg-taupe-600 active:scale-[0.98];
+    @apply focus:outline-none focus:ring-2 focus:ring-accent-charcoal focus:ring-offset-2;
+  }
+
+  .dark .btn-luxury {
+    @apply bg-gray-700 text-white;
+    @apply hover:bg-gray-600;
+  }
+
+  .btn-luxury-accent {
+    @apply px-8 py-4 font-medium tracking-wide transition-all duration-300 rounded-lg;
+    @apply bg-accent-gold text-white;
+    @apply hover:bg-accent-bronze active:scale-[0.98];
+    @apply focus:outline-none focus:ring-2 focus:ring-accent-gold focus:ring-offset-2;
+  }
+
+  .btn-luxury-secondary {
+    @apply px-8 py-4 font-medium tracking-wide transition-all duration-300 rounded-lg;
+    @apply bg-white text-accent-charcoal border-2 border-accent-charcoal;
+    @apply hover:bg-cream-100 active:scale-[0.98];
+    @apply focus:outline-none focus:ring-2 focus:ring-accent-charcoal focus:ring-offset-2;
+  }
+
+  .dark .btn-luxury-secondary {
+    @apply bg-gray-800 text-gray-100 border-gray-600;
+    @apply hover:bg-gray-700;
+  }
+
+  /* Luxury card styles */
+  .card-luxury {
+    @apply bg-white rounded-lg shadow-sm;
+    @apply border border-cream-200;
+    @apply transition-all duration-300;
+    @apply hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .dark .card-luxury {
+    @apply bg-gray-800 border-gray-700;
+  }
+
+  /* Section spacing (generous whitespace) */
+  .section-spacing {
+    @apply py-16 md:py-24 lg:py-30;
+  }
+}
+
+@layer utilities {
+  /* Responsive Typography using clamp() */
+  .text-responsive-xs {
+    font-size: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+  }
+
+  .text-responsive-sm {
+    font-size: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+  }
+
+  .text-responsive-base {
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+  }
+
+  .text-responsive-lg {
+    font-size: clamp(1.125rem, 1rem + 0.625vw, 1.5rem);
+  }
+
+  .text-responsive-xl {
+    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 1.875rem);
+  }
+
+  .text-responsive-2xl {
+    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.25rem);
+  }
+
+  .text-responsive-3xl {
+    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3rem);
+  }
+
+  .text-responsive-4xl {
+    font-size: clamp(2.25rem, 1.75rem + 2.5vw, 4rem);
+  }
+
+  .text-responsive-5xl {
+    font-size: clamp(3rem, 2rem + 5vw, 5rem);
+  }
+
+  /* Touch-friendly minimum sizes */
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Smooth animations */
+  @media (prefers-reduced-motion: no-preference) {
+    .animate-smooth {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Responsive image containers */
+.responsive-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hide scrollbar but keep functionality */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* Luxury scroll animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

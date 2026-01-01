@@ -1,0 +1,2 @@
+export { ProductConfigurator } from './ProductConfigurator';
+

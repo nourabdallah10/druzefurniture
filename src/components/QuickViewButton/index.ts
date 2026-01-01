@@ -1,0 +1,2 @@
+export { QuickViewButton } from './QuickViewButton';
+

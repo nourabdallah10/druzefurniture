@@ -1,0 +1,183 @@
+{
+  "nav": {
+    "home": "בית",
+    "sofas": "ספות",
+    "beds": "מיטות",
+    "tables": "שולחנות",
+    "colors": "צבעים",
+    "product": "מוצר"
+  },
+  "home": {
+    "title": "ברוכים הבאים לחנות הרהיטים שלנו",
+    "subtitle": "גלו רהיטים יפים ונוחים לביתכם",
+    "featuredCategories": "קטגוריות מומלצות",
+    "newArrivals": "חדשים",
+    "bestSellers": "הנמכרים ביותר",
+    "newsletter": {
+      "title": "הירשמו לניוזלטר שלנו",
+      "subtitle": "קבלו עדכונים על מוצרים חדשים והצעות בלעדיות",
+      "placeholder": "הכנס כתובת אימייל",
+      "button": "הירשם",
+      "success": "תודה על ההרשמה!"
+    }
+  },
+  "sofas": {
+    "title": "ספות",
+    "description": "עיינו באוסף הספות הנוחות שלנו"
+  },
+  "beds": {
+    "title": "מיטות",
+    "description": "מצאו את המיטה המושלמת לחדר השינה שלכם"
+  },
+  "tables": {
+    "title": "שולחנות",
+    "description": "שולחנות יפים לחדר אוכל וסלון"
+  },
+  "colors": {
+    "title": "צבעים ובדים",
+    "description": "בחרו ממבחר הרחב של הצבעים והבדים שלנו"
+  },
+  "product": {
+    "title": "פרטי המוצר",
+    "description": "צפו במידע מפורט על המוצר הזה",
+    "selectColor": "בחר צבע",
+    "selectMaterial": "בחר חומר",
+    "addToCart": "צור קשר בוואטסאפ",
+    "addedToCart": "המוצר נוסף לעגלה!",
+    "specifications": "מפרטים",
+    "dimensionsCustomizable": "מותאם אישית - צרו קשר לאופציות גדלים",
+    "customizationMessage": "לשאלות או להתאמה אישית של גודל המוצר, עיצוב או צבע, אנא אל תהססו ליצור איתנו קשר. אנחנו כאן כדי לעזור!",
+    "reviews": "ביקורות לקוחות",
+    "noReviews": "אין ביקורות עדיין. היה הראשון לכתוב ביקורת!",
+    "relatedProducts": "מוצרים קשורים",
+    "notFound": "מוצר לא נמצא",
+    "backToHome": "חזרה לדף הבית",
+    "qualityMessage": "מיוצר מעץ איכותי ובדים עמידים הניתנים לכביסה, כל פריט מותאם אישית להתאמה לחלל ולסגנון שלך."
+  },
+  "common": {
+    "language": "שפה",
+    "english": "English",
+    "hebrew": "עברית",
+    "viewDetails": "צפה בפרטים",
+    "price": "מחיר"
+  },
+  "filters": {
+    "filters": "מסננים",
+    "showFilters": "הצג מסננים",
+    "priceRange": "טווח מחירים",
+    "colors": "צבעים",
+    "styles": "סגנונות",
+    "materials": "חומרים",
+    "clearFilters": "נקה מסננים"
+  },
+  "sort": {
+    "sortBy": "מיין לפי",
+    "priceLowHigh": "מחיר: מהנמוך לגבוה",
+    "priceHighLow": "מחיר: מהגבוה לנמוך",
+    "newest": "החדשים ביותר"
+  },
+  "products": {
+    "showing": "מציג",
+    "of": "מתוך",
+    "products": "מוצרים",
+    "noProducts": "לא נמצאו מוצרים התואמים למסננים שלך"
+  },
+  "footer": {
+    "description": "המקור המהימן שלכם לרהיטים פרימיום. אנו מציעים ספות, מיטות, שולחנות ובדים מותאמים אישית בעלי איכות גבוהה לשינוי חללי המגורים שלכם.",
+    "quickLinks": "קישורים מהירים",
+    "categories": "קטגוריות",
+    "contact": "צור קשר",
+    "phone": "טלפון",
+    "email": "אימייל",
+    "address": "כתובת",
+    "followUs": "עקבו אחרינו",
+    "copyright": "כל הזכויות שמורות"
+  },
+  "seo": {
+    "defaultTitle": "חנות רהיטים פרימיום - ספות, מיטות ושולחנות מודרניים",
+    "defaultDescription": "גלו רהיטים פרימיום לביתכם. עיינו באוסף שלנו של ספות מודרניות, מיטות נוחות, שולחנות אלגנטיים ובדים מותאמים אישית.",
+    "skipToContent": "דלג לתוכן הראשי"
+  },
+  "accessibility": {
+    "menu": "תפריט ניווט ראשי",
+    "closeMenu": "סגור תפריט",
+    "openMenu": "פתח תפריט",
+    "search": "חפש מוצרים",
+    "cart": "עגלת קניות",
+    "userAccount": "חשבון משתמש",
+    "skipToMain": "דלג לתוכן הראשי",
+    "pagination": "ניווט דפים",
+    "previousPage": "עבור לעמוד הקודם",
+    "nextPage": "עבור לעמוד הבא",
+    "goToPage": "עבור לעמוד",
+    "toggleMenu": "החלף תפריט ניווט",
+    "closeFilters": "סגור מסננים"
+  },
+  "notFound": {
+    "title": "דף לא נמצא",
+    "description": "מצטערים, הדף שאתה מחפש לא קיים או הועבר.",
+    "backToHome": "חזרה לדף הבית",
+    "quickLinks": "קישורים מהירים"
+  },
+  "wishlist": {
+    "title": "רשימת משאלות",
+    "empty": "רשימת המשאלות שלך ריקה",
+    "add": "הוסף לרשימת משאלות",
+    "remove": "הסר מרשימת משאלות",
+    "added": "נוסף לרשימת משאלות",
+    "removed": "הוסר מרשימת משאלות",
+    "clear": "נקה רשימת משאלות"
+  },
+  "compare": {
+    "title": "השוואת מוצרים",
+    "add": "השווה",
+    "remove": "הסר",
+    "clear": "נקה הכל",
+    "maxItems": "ניתן להשוות עד {{max}} מוצרים",
+    "maxItemsReached": "ניתן להשוות עד {{max}} מוצרים. אנא הסר פריט קודם.",
+    "empty": "אין מוצרים להשוואה",
+    "addToCompare": "הוסף מוצרים להשוואה",
+    "specifications": "מפרטים",
+    "price": "מחיר",
+    "description": "תיאור",
+    "category": "קטגוריה"
+  },
+  "quickView": {
+    "title": "תצוגה מהירה",
+    "viewDetails": "צפה בפרטים מלאים",
+    "addToCart": "הוסף לעגלה"
+  },
+  "roomVisualizer": {
+    "title": "מציג חדרים",
+    "description": "הצג כיצד ריהוט נראה בחדר שלך",
+    "comingSoon": "בקרוב",
+    "placeholder": "מציג חדרים AR יהיה זמין בקרוב. העלה תמונה של החדר שלך כדי לראות כיצד הריהוט שלנו מתאים."
+  },
+  "delivery": {
+    "title": "מידע על משלוח",
+    "estimate": "זמן משלוח משוער",
+    "standard": "משלוח רגיל",
+    "express": "משלוח מהיר",
+    "days": "{{days}} ימים",
+    "calculate": "חשב זמן משלוח",
+    "enterZip": "הכנס מיקוד"
+  },
+  "configurator": {
+    "title": "הגדר את המוצר שלך",
+    "selectColor": "בחר צבע",
+    "selectMaterial": "בחר חומר",
+    "selectSize": "בחר גודל",
+    "customizations": "התאמות אישיות",
+    "addToCart": "הוסף לעגלה",
+    "updatePrice": "עדכן מחיר"
+  },
+  "theme": {
+    "light": "מצב בהיר",
+    "dark": "מצב כהה",
+    "toggle": "החלף נושא"
+  },
+  "whatsapp": {
+    "contactUs": "צור קשר"
+  }
+}
+

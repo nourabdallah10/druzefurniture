@@ -93,5 +93,5 @@ export const LazyImage = memo(({ src, alt, className = '', placeholder }: LazyIm
       )}
     </div>
   );
-};
+});
 

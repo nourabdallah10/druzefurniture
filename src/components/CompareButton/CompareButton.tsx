@@ -30,7 +30,7 @@ export const CompareButton = ({
   const handleClick = (e: React.MouseEvent) => {
     e.stopPropagation();
     if (isFull) {
-      alert(t('compare.maxItemsReached', { max: maxItems }));
+      alert(t('compare.maxItemsReached').replace('{{max}}', maxItems.toString()));
       return;
     }
     toggleItem(product);

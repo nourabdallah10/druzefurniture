@@ -65,7 +65,7 @@ export const DeliveryEstimator = ({ productId, className = '' }: DeliveryEstimat
           <div className="bg-cream-50 rounded-lg p-4 border border-cream-200">
             <p className="text-responsive-sm text-taupe-600 mb-2">{t('delivery.estimate')}:</p>
             <p className="text-responsive-lg font-semibold text-accent-charcoal">
-              {t('delivery.days', { days: estimatedDays })}
+              {t('delivery.days').replace('{{days}}', estimatedDays.toString())}
             </p>
             <p className="text-responsive-xs text-taupe-500 mt-2">
               {t('delivery.standard')}

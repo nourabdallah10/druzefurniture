@@ -1,5 +1,5 @@
 import { Suspense, ReactNode } from 'react';
-import { PageSkeleton } from '../LoadingSkeleton/LoadingSkeleton';
+import { PageSkeleton } from '../LoadingSkeleton';
 
 interface PageLoaderProps {
   children: ReactNode;

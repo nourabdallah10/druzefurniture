@@ -101,15 +101,9 @@ export const ProductCard = memo(({
         {/* Title and Description */}
         {!hideDescription && !hideButton ? (
           <div className="mt-auto">
-            <h3 className="text-responsive-lg font-serif font-semibold text-white mb-3 line-clamp-1 drop-shadow-lg">
+            <h3 className="text-responsive-lg font-serif font-semibold text-white mb-6 drop-shadow-lg">
               {displayName}
             </h3>
-
-            {displayDescription && (
-              <p className="text-responsive-sm text-white/95 mb-6 line-clamp-2 leading-relaxed drop-shadow-md">
-                {displayDescription}
-              </p>
-            )}
 
             {/* View Details Button */}
               <button

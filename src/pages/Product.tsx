@@ -124,7 +124,7 @@ export const Product = () => {
               {productName}
             </h1>
             
-            <p itemProp="description" className="text-responsive-lg text-gray-900 dark:text-gray-300 leading-relaxed mb-6">
+            <p itemProp="description" className="text-responsive-lg text-gray-900 dark:text-gray-300 leading-relaxed mb-6 whitespace-pre-line">
               {productDescription}
             </p>
 

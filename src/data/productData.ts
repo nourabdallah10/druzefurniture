@@ -26,12 +26,12 @@ export interface ProductDetails extends ProductCardProps {
 const productDatabase: Record<string, ProductDetails> = {
   'sofa-1': {
     id: 'sofa-1',
-    name: { en: 'Modern Luxury Sofa', he: 'ספה יוקרתית מודרנית' },
+    name: { en: 'Modern Luxury Sofa', he: 'ספה פינתית בעיצוב אישי – בדיוק כמו שדמיינתם' },
     image: sofa1,
     images: [sofa1, sofa2, sofa3, sofa4],
     description: {
       en: 'Contemporary design with premium comfort. This elegant sofa combines modern aesthetics with exceptional comfort, making it the perfect centerpiece for your living room.',
-      he: 'עיצוב עכשווי עם נוחות פרימיום. הספה האלגנטית הזו משלבת אסתטיקה מודרנית עם נוחות יוצאת דופן, מה שהופך אותה ליצירת המופת המושלמת לסלון שלכם.',
+      he: 'ספה פינתית איכותית ומרשימה, המיוצרת בעבודת יד ובהתאמה מלאה לחלל ולסגנון שלכם.\n\nניתן לבחור את סוג הבד, המרקם והצבע מתוך מגוון רחב של אפשרויות — וליצור מראה ייחודי שמתאים לבית שלכם בצורה מושלמת.\n\nהספה משלבת נוחות גבוהה עם עמידות לאורך שנים, עם מושבים תומכים וריפוד איכותי שקל לניקוי ולתחזוקה.\n\nמתאימה לסלון משפחתי, לאירוח ולרגעי מנוחה מפנקים.',
     },
     price: 2499,
     category: 'Sofas',

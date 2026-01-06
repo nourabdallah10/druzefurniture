@@ -62,9 +62,12 @@ import { ProductCardProps } from '../components/ProductCard/ProductCard';
 export const newArrivals: ProductCardProps[] = [
   {
     id: 'sofa-1',
-    name: { en: 'Modern Luxury Sofa', he: 'ספה יוקרתית מודרנית' },
+    name: { en: 'Modern Luxury Sofa', he: 'ספה פינתית בעיצוב אישי – בדיוק כמו שדמיינתם' },
     image: sofa1,
-    description: { en: 'Contemporary design with premium comfort', he: 'עיצוב עכשווי עם נוחות פרימיום' },
+    description: { 
+      en: 'Contemporary design with premium comfort', 
+      he: 'ספה פינתית איכותית ומרשימה, המיוצרת בעבודת יד ובהתאמה מלאה לחלל ולסגנון שלכם.\n\nניתן לבחור את סוג הבד, המרקם והצבע מתוך מגוון רחב של אפשרויות — וליצור מראה ייחודי שמתאים לבית שלכם בצורה מושלמת.\n\nהספה משלבת נוחות גבוהה עם עמידות לאורך שנים, עם מושבים תומכים וריפוד איכותי שקל לניקוי ולתחזוקה.\n\nמתאימה לסלון משפחתי, לאירוח ולרגעי מנוחה מפנקים.' 
+    },
     price: 2499,
     category: 'Sofas',
   },
@@ -86,9 +89,12 @@ export const newArrivals: ProductCardProps[] = [
   },
   {
     id: 'sofa-2',
-    name: { en: 'Classic Leather Sofa', he: 'ספה קלאסית מעור' },
+    name: { en: 'Classic Leather Sofa', he: 'ספה פינתית בעיצוב אישי – בדיוק כמו שדמיינתם' },
     image: sofa2,
-    description: { en: 'Timeless elegance in your living room', he: 'אלגנטיות נצחית בסלון שלך' },
+    description: { 
+      en: 'Timeless elegance in your living room', 
+      he: 'ספה פינתית איכותית ומרשימה, המיוצרת בעבודת יד ובהתאמה מלאה לחלל ולסגנון שלכם.\n\nניתן לבחור את סוג הבד, המרקם והצבע מתוך מגוון רחב של אפשרויות — וליצור מראה ייחודי שמתאים לבית שלכם בצורה מושלמת.\n\nהספה משלבת נוחות גבוהה עם עמידות לאורך שנים, עם מושבים תומכים וריפוד איכותי שקל לניקוי ולתחזוקה.\n\nמתאימה לסלון משפחתי, לאירוח ולרגעי מנוחה מפנקים.' 
+    },
     price: 3299,
     category: 'Sofas',
   },
@@ -114,9 +120,12 @@ export const newArrivals: ProductCardProps[] = [
 export const bestSellers: ProductCardProps[] = [
   {
     id: 'sofa-3',
-    name: { en: 'Premium Comfort Sofa', he: 'ספה נוחה פרימיום' },
+    name: { en: 'Premium Comfort Sofa', he: 'ספה פינתית בעיצוב אישי – בדיוק כמו שדמיינתם' },
     image: sofa3,
-    description: { en: 'Customer favorite with outstanding reviews', he: 'מועדף על הלקוחות עם ביקורות מצוינות' },
+    description: { 
+      en: 'Customer favorite with outstanding reviews', 
+      he: 'ספה פינתית איכותית ומרשימה, המיוצרת בעבודת יד ובהתאמה מלאה לחלל ולסגנון שלכם.\n\nניתן לבחור את סוג הבד, המרקם והצבע מתוך מגוון רחב של אפשרויות — וליצור מראה ייחודי שמתאים לבית שלכם בצורה מושלמת.\n\nהספה משלבת נוחות גבוהה עם עמידות לאורך שנים, עם מושבים תומכים וריפוד איכותי שקל לניקוי ולתחזוקה.\n\nמתאימה לסלון משפחתי, לאירוח ולרגעי מנוחה מפנקים.' 
+    },
     price: 2799,
     category: 'Sofas',
   },
@@ -138,17 +147,23 @@ export const bestSellers: ProductCardProps[] = [
   },
   {
     id: 'sofa-5',
-    name: { en: 'White Sofa Set', he: 'סט ספות לבן' },
+    name: { en: 'White Sofa Set', he: 'ספה פינתית בעיצוב אישי – בדיוק כמו שדמיינתם' },
     image: sofa5,
-    description: { en: 'High-end materials for IKEA style', he: 'חומרים באיכות גבוהה בסגנון איקאה' },
+    description: { 
+      en: 'High-end materials for IKEA style', 
+      he: 'ספה פינתית איכותית ומרשימה, המיוצרת בעבודת יד ובהתאמה מלאה לחלל ולסגנון שלכם.\n\nניתן לבחור את סוג הבד, המרקם והצבע מתוך מגוון רחב של אפשרויות — וליצור מראה ייחודי שמתאים לבית שלכם בצורה מושלמת.\n\nהספה משלבת נוחות גבוהה עם עמידות לאורך שנים, עם מושבים תומכים וריפוד איכותי שקל לניקוי ולתחזוקה.\n\nמתאימה לסלון משפחתי, לאירוח ולרגעי מנוחה מפנקים.' 
+    },
     price: 125,
     category: 'Sofas',
   },
   {
     id: 'sofa-4',
-    name: { en: 'Sectional Sofa Set', he: 'סט ספות מודולרי' },
+    name: { en: 'Sectional Sofa Set', he: 'ספה ישרה בעיצוב אישי – נוחות שמותאמת לכם' },
     image: sofa4,
-    description: { en: 'Spacious seating for small families', he: 'מושבים מרווחים למשפחות קטנות' },
+    description: { 
+      en: 'Spacious seating for small families', 
+      he: 'ספה ישרה אלגנטית ומעוצבת, המיוצרת בהתאמה מלאה לגודל ולסגנון הבית.\n\nניתן לבחור את סוג הבד והצבע מתוך מגוון רחב של אפשרויות — כך שתוכלו לשלב אותה בצורה מושלמת עם הריהוט והעיצוב הקיים.\n\nהספה משלבת מבנה יציב, ריפוד איכותי ותמיכה נוחה לישיבה ארוכה, עם בדים עמידים שקל לנקות ולתחזק.\n\nמתאימה לסלון, חדר משפחה או חדר אירוח — ומוסיפה מראה נקי ומודרני לכל חלל.' 
+    },
     price: 3999,
     category: 'Sofas',
   },

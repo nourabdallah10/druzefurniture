@@ -6,7 +6,7 @@ export const FloatingWhatsAppButton = () => {
   const { language } = useLanguageStore();
   const isRTL = language === 'he';
 
-  const whatsappNumber = '972555026838'; // +972 55-502-6838
+  const whatsappNumber = '972539296032'; // +972 53-929-6032
   const whatsappUrl = `https://wa.me/${whatsappNumber}`;
 
   return (

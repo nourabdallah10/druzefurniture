@@ -72,7 +72,7 @@ export const Product = () => {
     : (product.description?.[language] || product.description?.en || '');
 
   // WhatsApp contact link
-  const whatsappNumber = '972555026838'; // +972 55-502-6838
+  const whatsappNumber = '972539296032'; // +972 53-929-6032
   const whatsappMessage = language === 'he' 
     ? `שלום, אני מתעניין במוצר: ${productName}`
     : `Hello, I'm interested in the product: ${productName}`;
